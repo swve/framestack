@@ -1,0 +1,744 @@
+[
+  {
+    "name": "Symfony",
+    "mini_desc": "Symfony aims to speed up the creation and maintenance of web applications and to replace repetitive coding tasks.",
+    "img_url": "../boxes-img/symfony.png",
+    "link": "https://symfony.com/",
+    "tags": "back-end,web,api",
+    "lang": "php",
+    "type": "frame"
+  },
+  {
+    "name": "Laravel",
+    "mini_desc": "Laravel is a web application framework with expressive, elegant syntax. ",
+    "img_url": "https://cdn.worldvectorlogo.com/logos/laravel.svg",
+    "link": "https://laravel.com/",
+    "tags": "back-end,web,api",
+    "lang": "php",
+    "type": "frame"
+  },
+  {
+    "name": "VueJS",
+    "mini_desc": "Progressive framework for building user interfaces",
+    "img_url": "https://vuejs.org/images/logo.png",
+    "link": "https://vuejs.org",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "NodeJS",
+    "desc": "",
+    "mini_desc": "Node.js is an open-source server side runtime environment built on Chrome\\'s V8 JavaScript engine",
+    "img_url": "../boxes-img/nodejs.png",
+    "link": "https://nodejs.org/",
+    "tags": "back-end,web,api",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "AngularJS",
+    "desc": "a google framework",
+    "mini_desc": "AngularJS is a structural framework for dynamic web apps. ",
+    "img_url": "https://pluralsight.imgix.net/paths/path-icons/angular-14a0f6532f.png",
+    "link": "https://angularjs.org/",
+    "tags": "front-end,web",
+    "lang": "Javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Codeigniter",
+    "desc": "Web framework",
+    "mini_desc": "A MVC fast , light and powerful PHP web application framework",
+    "img_url": "https://cdn.worldvectorlogo.com/logos/codeigniter.svg",
+    "link": "https://codeigniter.com/",
+    "tags": "back-end,web,api",
+    "lang": "php",
+    "type": "frame"
+  },
+  {
+    "name": "Foundation",
+    "desc": "Highly customizable and powerful front-end framework, designed with ease",
+    "mini_desc": "Highly customizable and powerful front-end framework, designed with ease",
+    "img_url": "https://foundation.zurb.com/assets/img/develop/contribute/logo-yeti.gif",
+    "link": "http://foundation.zurb.com/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "frame"
+  },
+  {
+    "name": "ExpressJS",
+    "desc": "..",
+    "mini_desc": "Fast, unopinionated, minimalist web framework for Node.js ",
+    "img_url": "https://img.favpng.com/16/23/10/website-development-express-js-node-js-javascript-npm-png-favpng-qcz5pK3sTR5Zk7XgRr2kz0uNm.jpg",
+    "link": "http://expressjs.com/",
+    "tags": "front-end,web,api",
+    "lang": "javascript",
+    "type": "frame"
+  },
+
+  {
+    "name": "NestJS",
+    "desc": "..",
+    "mini_desc": "A progressive Node.js framework for building efficient, reliable and scalable server-side applications. ",
+    "img_url": "https://user-images.githubusercontent.com/13108166/32161516-25ee8a3c-bd56-11e7-9d49-76faed577e1a.png",
+    "link": "https://nestjs.com/",
+    "tags": "front-end,web,api",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Bulma",
+    "mini_desc": "Bulma is a free and open source CSS framework based on Flexbox.",
+    "img_url": "https://jgthms.com/web-design-in-4-minutes/bulma.png",
+    "link": "http://bulma.io/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "frame"
+  },
+  {
+    "name": "UI Kit",
+    "mini_desc": "A lightweight and modular front-end framework for developing fast and powerful web interfaces",
+    "img_url": "https://cdn.worldvectorlogo.com/logos/uikit.svg",
+    "link": "http://getuikit.com/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "frame"
+  },
+  {
+    "name": "Semsantic UI",
+    "mini_desc": "Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML",
+    "img_url": "https://cdn.worldvectorlogo.com/logos/semantic-ui.svg",
+    "link": "http://semantic-ui.com/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "frame"
+  },
+
+  {
+    "name": "Materialize",
+    "mini_desc": "A modern responsive front-end framework based on Material Design ",
+    "img_url": "https://seeklogo.com/images/M/materialize-logo-0FCAD8A6F8-seeklogo.com.png",
+    "link": "http://materializecss.com/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "frame"
+  },
+  {
+    "name": "GroundWorkCSS",
+    "mini_desc": "A Responsive HTML5, CSS and Javascript Framework",
+    "img_url": "https://groundworkcss.github.io/groundwork/images/groundwork-logo.svg",
+    "link": "https://groundworkcss.github.io/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "frame"
+  },
+  {
+    "name": "PureCSS",
+    "mini_desc": "A set of small, responsive CSS modules that you can use in every web project",
+    "img_url": "https://purecss.io/img/logo_pure@2x.png",
+    "link": "https://purecss.io/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "frame"
+  },
+  {
+    "name": "Helium",
+    "mini_desc": "A responsive frontend framework that won\\'t weigh you down",
+    "img_url": "../boxes-img/other.png",
+    "link": "https://github.com/cbrauckmuller/helium",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "frame"
+  },
+  {
+    "name": "MobX",
+    "mini_desc": "MobX is a battle tested library that makes state management simple and scalable",
+    "img_url": "../boxes-img/mobx.png",
+    "link": "https://mobx.js.org/",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Omniscient ",
+    "mini_desc": "Do fast top-down rendering of views while thinking functional programming.",
+    "img_url": "https://omniscientjs.github.io/assets/omniscient.svg",
+    "link": "https://omniscientjs.github.io/",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Meteor",
+    "mini_desc": "Meteor is an open source platform for  web, mobile, and desktop",
+    "img_url": "https://pbs.twimg.com/profile_images/527039622434418688/uJPMDhZq_400x400.png",
+    "link": "https://www.meteor.com/",
+    "tags": "back-end,web",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "BackBone.JS",
+    "mini_desc": "Backbone.js gives structure to web applications ",
+    "img_url": "https://www.codeforest.net/wp-content/uploads/2013/05/backbone.png",
+    "link": "http://backbonejs.org/",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "KeyStone",
+    "mini_desc": "The open source framework for developing database-driven products",
+    "img_url": "https://pbs.twimg.com/profile_images/378800000472393763/d5575455853a3eb2ec1dafb5522ffc9a_400x400.png",
+    "link": "http://keystonejs.com/",
+    "tags": "front-end,web,api",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "EmberJS",
+    "mini_desc": "A framework for creating  ambitious web applications",
+    "img_url": "https://upload.wikimedia.org/wikipedia/fr/6/69/Ember.js_Logo_and_Mascot.png",
+    "link": "https://emberjs.com/",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Socket.io",
+    "mini_desc": "Socket.IO enables real-time bidirectional event-based communication.",
+    "img_url": "https://cdn.worldvectorlogo.com/logos/socket-io.svg",
+    "link": "https://socket.io/",
+    "tags": "front-end,web,api",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "RIOT",
+    "mini_desc": "Simple and elegant component-based UI library",
+    "img_url": "../boxes-img/riot.png",
+    "link": "http://riotjs.com/",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Aurelia",
+    "mini_desc": "Aurelia is a JavaScript client framework for web, mobile and desktop",
+    "img_url": "http://aurelia.io/styles/images/logo.svg",
+    "link": "http://aurelia.io/",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Framework7",
+    "mini_desc": "Full featured HTML framework for building iOS &amp; Android apps",
+    "img_url": "../boxes-img/framework7.jpg",
+    "link": "https://framework7.io/",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Ionic",
+    "mini_desc": "Ionic is a mobile SDK for developing native and progressive web apps with ease.",
+    "img_url": "https://s3-us-west-2.amazonaws.com/cosmicjs/e9a56ce0-6322-11e7-8774-41dfff8ae5dc-bYMCvtHD.jpg",
+    "link": "https://ionicframework.com/",
+    "tags": "front-end,mobile",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Mobile Angular ",
+    "mini_desc": "Build HTML5 Mobile Apps with Bootstrap and Angular JS",
+    "img_url": "../boxes-img/angular.png",
+    "link": "http://mobileangularui.com/",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "React Native",
+    "mini_desc": "Build native mobile apps using JavaScript and React",
+    "img_url": "https://cms-assets.tutsplus.com/uploads/users/1125/posts/27328/preview_image/rn.jpg",
+    "link": "https://facebook.github.io/react-native/",
+    "tags": "front-end,mobile",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Yii Framework",
+    "mini_desc": "The Fast, Secure and Professional PHP Framework",
+    "img_url": "http://cms.skeeks.com/uploads/all/91/12/52/9112527ab198fb716fa08a9a13b63ca3.png",
+    "link": "http://www.yiiframework.com/",
+    "tags": "back-end,web",
+    "lang": "php",
+    "type": "frame"
+  },
+  {
+    "name": "CakePHP",
+    "mini_desc": "A modern PHP 7 framework offering a flexible database access layer and a powerful scaffolding system",
+    "img_url": "https://cdn.worldvectorlogo.com/logos/cakephp.svg",
+    "link": "https://cakephp.org/",
+    "tags": "back-end,web,api",
+    "lang": "php",
+    "type": "frame"
+  },
+  {
+    "name": "Phalcon",
+    "mini_desc": "A full-stack PHP framework delivered as a C-extension",
+    "img_url": "https://www.gajotres.net/wp-content/uploads/2014/01/phalcon-php-logo.png",
+    "link": "https://phalconphp.com/en/",
+    "tags": "front-end,web",
+    "lang": "php",
+    "type": "frame"
+  },
+  {
+    "name": "Zend Framework",
+    "mini_desc": "rofessional PHP packages ready for PHP 7 Focused on Simplicity, Reusability, and Performance",
+    "img_url": "http://www.craiglotter.co.za/wp-content/uploads/2011/03/zend-zf-logo.jpg",
+    "link": "https://framework.zend.com/",
+    "tags": "back-end,web",
+    "lang": "php",
+    "type": "frame"
+  },
+  {
+    "name": "FuelPHP",
+    "mini_desc": "Simple, flexible, community driven PHP 5.3+ framework",
+    "img_url": "https://fuelphp.com/addons/shared_addons/themes/fuel/img/logo.png",
+    "link": "https://fuelphp.com/",
+    "tags": "back-end,web,api",
+    "lang": "php",
+    "type": "frame"
+  },
+  {
+    "name": "Aura",
+    "mini_desc": "Powerful tools for powerful applications.",
+    "img_url": "http://auraphp.com/img/aura-logo-black.png",
+    "link": "http://auraphp.com/",
+    "tags": "back-end,web",
+    "lang": "php",
+    "type": "frame"
+  },
+  {
+    "name": "Slim",
+    "mini_desc": "Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs.",
+    "img_url": "https://www.slimframework.com/assets/images/favicon.png",
+    "link": "https://www.slimframework.com/",
+    "tags": "back-end,web,api",
+    "lang": "php",
+    "type": "frame"
+  },
+  {
+    "name": "Silex",
+    "mini_desc": "The PHP micro-framework based on the Symfony Components",
+    "img_url": "../boxes-img/silex.png",
+    "link": "https://silex.symfony.com/",
+    "tags": "back-end,web,api",
+    "lang": "php",
+    "type": "frame"
+  },
+  {
+    "name": "Ruby on rails",
+    "mini_desc": "Server-side web application framework written in Ruby",
+    "img_url": "https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/1/formation-ruby-on-rails.png",
+    "link": "http://rubyonrails.org/",
+    "tags": "back-end,web,api",
+    "lang": "ruby",
+    "type": "frame"
+  },
+  {
+    "name": "Sinatra",
+    "mini_desc": "Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort",
+    "img_url": "http://sinatrarb.com/sinatra.github.com/images/logo.png",
+    "link": "http://sinatrarb.com/",
+    "tags": "back-end,web,api",
+    "lang": "ruby",
+    "type": "frame"
+  },
+  {
+    "name": "Padrino",
+    "mini_desc": "Padrino is a Ruby web framework built upon the Sinatra web library",
+    "img_url": "https://farm2.staticflickr.com/1661/24073250940_70864c4ae3_o_d.png",
+    "link": "http://padrinorb.com/",
+    "tags": "back-end,web",
+    "lang": "ruby",
+    "type": "frame"
+  },
+  {
+    "name": "Hanami",
+    "mini_desc": "Hanami is a modern web framework for Ruby",
+    "img_url": "http://hanamirb.org/images/logo.png",
+    "link": "http://hanamirb.org/",
+    "tags": "back-end,web",
+    "lang": "ruby",
+    "type": "frame"
+  },
+  {
+    "name": "NYNY",
+    "mini_desc": "A (ridiculously) small and powerful web framework.",
+    "img_url": "../boxes-img/nyny.png",
+    "link": "https://alisnic.github.io/nyny/",
+    "tags": "back-end,web",
+    "lang": "ruby",
+    "type": "frame"
+  },
+  {
+    "name": "Scroched",
+    "mini_desc": "Scorched is a generic, unopinionated, DRY, light-weight web framework for Ruby",
+    "img_url": "../boxes-img/scorched.png",
+    "link": "https://scorchedrb.com/",
+    "tags": "back-end,web",
+    "lang": "ruby",
+    "type": "frame"
+  },
+  {
+    "name": "Cuba",
+    "mini_desc": "Cuba is a Ruby microframework for web development.",
+    "img_url": "../boxes-img/cuba.jpg",
+    "link": "http://cuba.is/",
+    "tags": "back-end,web",
+    "lang": "ruby",
+    "type": "frame"
+  },
+  {
+    "name": "Nancy",
+    "mini_desc": "Ruby microframework for web development",
+    "img_url": "../boxes-img/nancy.jpg",
+    "link": "https://guilleiguaran.github.io/nancy/",
+    "tags": "back-end,web",
+    "lang": "ruby",
+    "type": "frame"
+  },
+  {
+    "name": "Django",
+    "mini_desc": "Django makes it easier to build better Web apps more quickly and with less code",
+    "img_url": "../boxes-img/django.png",
+    "link": "https://www.djangoproject.com/",
+    "tags": "back-end,web,api",
+    "lang": "python",
+    "type": "frame"
+  },
+  {
+    "name": "Flask",
+    "mini_desc": "Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions",
+    "img_url": "http://flask-training-courses.uk/images/flask-logo.png",
+    "link": "http://flask.pocoo.org/",
+    "tags": "back-end,web,api",
+    "lang": "python",
+    "type": "frame"
+  },
+  {
+    "name": "Tornado",
+    "mini_desc": "Tornado is a Python web framework and asynchronous networking library",
+    "img_url": "http://www.tornadoweb.org/en/stable/_images/tornado.png",
+    "link": "http://www.tornadoweb.org/en/stable/",
+    "tags": "back-end,web,api",
+    "lang": "python",
+    "type": "frame"
+  },
+  {
+    "name": "CherryPy",
+    "mini_desc": "A Minimalist Python Web Framework",
+    "img_url": "http://cherrypy.org/images/cherrypy.png",
+    "link": "http://cherrypy.org/",
+    "tags": "back-end,web",
+    "lang": "python",
+    "type": "frame"
+  },
+  {
+    "name": "Hug ",
+    "mini_desc": "Drastically simplify API development over multiple interfaces.",
+    "img_url": "../boxes-img/hug.png",
+    "link": "http://www.hug.rest/",
+    "tags": "back-end,web",
+    "lang": "python",
+    "type": "frame"
+  },
+  {
+    "name": "Falcon",
+    "mini_desc": "Falcon is a bare-metal Python web API framework for building very fast app backends and microservices.",
+    "img_url": "https://falconframework.org/img/logo.svg",
+    "link": "https://falconframework.org/",
+    "tags": "back-end,web,api",
+    "lang": "python",
+    "type": "frame"
+  },
+  {
+    "name": "Pyramid",
+    "mini_desc": "The Start Small, Finish Big  Stay Finished Framework",
+    "img_url": "https://trypyramid.com/img/pyramid-60x60.png",
+    "link": "https://trypyramid.com/",
+    "tags": "back-end,web",
+    "lang": "python",
+    "type": "frame"
+  },
+  {
+    "name": "Web2Py",
+    "mini_desc": "Free open source full-stack framework for rapid development",
+    "img_url": "http://www.web2py.com/init/static/images/web2py_logo.png",
+    "link": "http://www.web2py.com/",
+    "tags": "back-end,web,api",
+    "lang": "python",
+    "type": "frame"
+  },
+  {
+    "name": "Sanic",
+    "mini_desc": "Sanic is a Flask-like Python 3.5+ web server that’s written to go fast.",
+    "img_url": "../boxes-img/sanic.jpg",
+    "link": "https://sanic.readthedocs.io/en/latest/",
+    "tags": "back-end,web,api",
+    "lang": "python",
+    "type": "frame"
+  },
+  {
+    "name": "Expo",
+    "mini_desc": "Toolkit to make RN apps",
+    "img_url": "../boxes-img/expo.jpg",
+    "link": "https://expo.io/",
+    "tags": "mobile",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Flutter",
+    "mini_desc": "Framework from google to make apps",
+    "img_url": "../boxes-img/flutter.png",
+    "link": "https://flutter.dev/",
+    "tags": "mobile",
+    "lang": "dart",
+    "type": "frame"
+  },
+  {
+    "name": "NativeScript",
+    "mini_desc": "Make native apps using vue and JS",
+    "img_url": "../boxes-img/nativescript.png",
+    "link": "https://www.nativescript.org/",
+    "tags": "mobile",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "SwiftUI",
+    "mini_desc": "Make native app easily using swift",
+    "img_url": "../boxes-img/swiftui.png",
+    "link": "https://developer.apple.com/xcode/swiftui/",
+    "tags": "mobile",
+    "lang": "swift",
+    "type": "frame"
+  },
+  {
+    "name": "Strapi",
+    "mini_desc": "Make API using a really nice interface ",
+    "img_url": "../boxes-img/strapi.png",
+    "link": "https://strapi.io/",
+    "tags": "api,tools",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Strongloop",
+    "mini_desc": "framework from IBM to create apis easily",
+    "img_url": "../boxes-img/strongloop.png",
+    "link": "https://strongloop.com/",
+    "tags": "api",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
+    "name": "Spring",
+    "mini_desc": "Java framework to create APIs and websites",
+    "img_url": "../boxes-img/spring.png",
+    "link": "https://spring.io/",
+    "tags": "api,web",
+    "lang": "java",
+    "type": "frame"
+  },
+  {
+    "name": "Lumen",
+    "mini_desc": "Lite PHP Framework to make apis website and more,,",
+    "img_url": "../boxes-img/lumen.png",
+    "link": "https://lumen.laravel.com/",
+    "tags": "api",
+    "lang": "php",
+    "type": "frame"
+  },
+  {
+    "name": ".NET ",
+    "mini_desc": "Framework to make native windows apps",
+    "img_url": "../boxes-img/dotnet.png",
+    "link": "https://dotnet.microsoft.com/",
+    "tags": "software",
+    "type": "frame"
+  },
+  {
+    "name": "UWP",
+    "mini_desc": "Platform to make native windows universal applications that works everywhere",
+    "img_url": "../boxes-img/UWP.jpg",
+    "link": "https://docs.microsoft.com/fr-fr/windows/uwp/get-started/universal-application-platform-guide",
+    "tags": "software",
+    "type": "frame"
+  },
+  {
+    "name": "Cocoa",
+    "mini_desc": "Native macOS library",
+    "img_url": "../boxes-img/macos.jpg",
+    "link": "https://developer.apple.com/macos/",
+    "tags": "software",
+    "type": "frame"
+  },
+  {
+    "name": "ElectronJS",
+    "mini_desc": "Create apps using web technologies by GitHub",
+    "img_url": "../boxes-img/electronjs.webp",
+    "link": "https://www.electronjs.org/",
+    "tags": "software",
+    "type": "frame"
+  },
+  {
+    "name": "Swing",
+    "mini_desc": "Java framework",
+    "img_url": "../boxes-img/java.png",
+    "link": "https://www.oracle.com/technical-resources/articles/javase/swingappfr.html",
+    "tags": "software",
+    "type": "frame"
+  },
+  {
+    "name": "QT",
+    "mini_desc": "Library to make GUI apps suing python",
+    "img_url": "../boxes-img/qt.png",
+    "link": "https://www.qt.io/",
+    "tags": "software",
+    "type": "frame"
+  },
+  {
+    "name": "Phaser",
+    "mini_desc": "A framework to build web games",
+    "img_url": "../boxes-img/phaser.png",
+    "link": "https://phaser.io/",
+    "tags": "games",
+    "type": "frame"
+  },
+  {
+    "name": "PixiJS",
+    "mini_desc": "A framework to make HTML games",
+    "img_url": "../boxes-img/pixijs.png",
+    "link": "https://www.pixijs.com/",
+    "tags": "games",
+    "type": "frame"
+  },
+  {
+    "name": "KiwiJS",
+    "mini_desc": "Framework to build web games",
+    "img_url": "../boxes-img/kiwi.png",
+    "link": "https://www.kiwijs.org/",
+    "tags": "games",
+    "type": "frame"
+  },
+  {
+    "name": "CreateJS",
+    "mini_desc": "Build animated experience on the web",
+    "img_url": "../boxes-img/createjs.png",
+    "link": "https://createjs.com/",
+    "tags": "games",
+    "type": "frame"
+  },
+  {
+    "name": "Quintus",
+    "mini_desc": "HTML5 Games engine",
+    "img_url": "../boxes-img/quin.png",
+    "link": "http://www.html5quintus.com/",
+    "tags": "games",
+    "type": "frame"
+  },
+  {
+    "name": "Cocos",
+    "mini_desc": "Complete and open source software to make 2D games",
+    "img_url": "../boxes-img/cocos.png",
+    "link": "https://www.cocos.com/",
+    "tags": "games",
+    "type": "frame"
+  },
+  {
+    "name": "TensorFlow",
+    "mini_desc": "An end-to-end open source machine learning platform.",
+    "img_url": "../boxes-img/tensor.png",
+    "link": "https://www.tensorflow.org/",
+    "tags": "ai",
+    "type": "frame"
+  },
+  {
+    "name": "Torch",
+    "mini_desc": "An open source machine learning framework that accelerates the path from research prototyping to production deployment.",
+    "img_url": "../boxes-img/pytorch.png",
+    "link": "https://pytorch.org/",
+    "tags": "ai",
+    "type": "frame"
+  },
+  {
+    "name": "Caffe",
+    "mini_desc": "Caffe  is a deep learning  framework  ",
+    "img_url": "../boxes-img/caffe.png",
+    "link": "https://caffe.berkeleyvision.org/",
+    "tags": "ai",
+    "type": "frame"
+  },
+  {
+    "name": "Theano",
+    "mini_desc": "Python AI",
+    "img_url": "../boxes-img/theano.png",
+    "link": "http://deeplearning.net/software/theano/",
+    "tags": "ai",
+    "type": "frame"
+  },
+  {
+    "name": "Amazon Machine Learning",
+    "mini_desc": "AWS Tool to create machine learning experiences",
+    "img_url": "../boxes-img/AML.png",
+    "link": "https://aws.amazon.com/fr/machine-learning/",
+    "tags": "ai",
+    "type": "frame"
+  },
+  {
+    "name": "Accord,net",
+    "mini_desc": "an AI framework",
+    "img_url": "https://raw.githubusercontent.com/dajuric/accord-net-extensions/master/Deployment/Logo/logo-big.png",
+    "link": "http://accord-framework.net/",
+    "tags": "ai",
+    "type": "frame"
+  },
+  {
+    "name": "Apache Mahout",
+    "mini_desc": "Open source framework to build AI  ",
+    "img_url": "../boxes-img/mahout.png",
+    "link": "https://mahout.apache.org/",
+    "tags": "ai",
+    "type": "frame"
+  },
+  {
+    "name": "Keras",
+    "mini_desc": "Apache  Mahout(TM) is a distributed linear algebra  framework  and mathematically expressive",
+    "img_url": "../boxes-img/keras.jpg",
+    "link": "https://keras.io/",
+    "tags": "ai",
+    "type": "frame"
+  },
+  {
+    "name": "Microsoft CNTK",
+    "mini_desc": "open-source toolkit for commercial-grade distributed deep learning",
+    "img_url": "../boxes-img/msft.svg",
+    "link": "https://docs.microsoft.com/en-us/cognitive-toolkit/",
+    "tags": "ai",
+    "type": "frame"
+  },
+  {
+    "name": "API Platform",
+    "mini_desc": "REST and GraphQL framework to build modern API-driven projects        ",
+    "img_url": "../boxes-img/apiplatform.png",
+    "link": "https://api-platform.com/",
+    "tags": "api",
+    "type": "frame"
+  }
+]

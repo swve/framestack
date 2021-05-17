@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Webflow",
+    "desc": "...",
+    "mini_desc": "Most advanced web making app used by well known companies",
+    "img_url": "../boxes-img/webflow.png",
+    "link": "https://webflow.com/",
+    "tags": "front-end,web",
+    "lang": "nocode",
+    "type": "tools"
+  },
+  {
+    "name": "Shopify",
+    "desc": "...",
+    "mini_desc": "A tool to make and operate your online shop",
+    "img_url": "../boxes-img/shopify.png",
+    "link": "https://shopify.com/",
+    "tags": "front-end,web",
+    "lang": "nocode",
+    "type": "tools"
+  },
+  {
+    "name": "SquareSpace",
+    "desc": "...",
+    "mini_desc": "Easy to use web creation tool for creators and makers",
+    "img_url": "../boxes-img/squarespace.png",
+    "link": "https://squarespace.com/",
+    "tags": "front-end,web",
+    "lang": "nocode",
+    "type": "tools"
+  },
+  {
+    "name": "Sheet2Site",
+    "desc": "...",
+    "mini_desc": "Turn any Google Sheet to an api and create a website with it",
+    "img_url": "../boxes-img/sheet2site.png",
+    "link": "https://sheet2site.com/",
+    "tags": "front-end,web,api",
+    "lang": "nocode",
+    "type": "tools"
+  },
+  {
+    "name": "Weebly",
+    "desc": "...",
+    "mini_desc": "Easy to use website making app",
+    "img_url": "../boxes-img/weebly.png",
+    "link": "https://weebly.com/",
+    "tags": "front-end,web",
+    "lang": "nocode",
+    "type": "tools"
+  },
+  {
+    "name": "Andromo",
+    "desc": "...",
+    "mini_desc": "Create the app you want",
+    "img_url": "../boxes-img/andromo.jpg",
+    "link": "https://andromo.com/",
+    "tags": "mobile",
+    "lang": "nocode",
+    "type": "tools"
+  },
+  {
+    "name": "Buildfire",
+    "desc": "...",
+    "mini_desc": "The Ultimate App Creator for iOS & Android",
+    "img_url": "../boxes-img/other.png",
+    "link": "https://buildfire.com/",
+    "tags": "mobile",
+    "lang": "nocode",
+    "type": "tools"
+  },
+  {
+    "name": "Appgeyser",
+    "desc": "...",
+    "mini_desc": "The Fastest and The Simplest App Builder for your app creation Without any coding and fees",
+    "img_url": "../boxes-img/appgeyser.png",
+    "link": "https://appgeyser.com/",
+    "tags": "mobile",
+    "lang": "nocode",
+    "type": "tools"
+  },
+  {
+    "name": "WinForms",
+    "mini_desc": "Tools to help make native windows apps",
+    "img_url": "../boxes-img/UWP.jpg",
+    "link": "https://docs.microsoft.com/fr-fr/dotnet/framework/winforms/",
+    "tags": "software",
+    "type": "tools"
+  },
+  {
+    "name": "Electron Fiddle",
+    "mini_desc": "Try and use Electron ",
+    "img_url": "../boxes-img/electronfiddle.png",
+    "link": "https://www.electronjs.org/fiddle",
+    "tags": "software",
+    "type": "tools"
+  },
+  {
+    "name": "Buildbox",
+    "mini_desc": "Software to make multiplatform games ",
+    "img_url": "https://www.buildbox.com/wp-content/uploads/2017/03/logo.png",
+    "link": "https://www.buildbox.com/",
+    "tags": "games",
+    "type": "tools"
+  },
+  {
+    "name": "Gamemaker Studio",
+    "mini_desc": "Desktop app to create complete games in a fun way",
+    "img_url": "../boxes-img/gamemaker.png",
+    "link": "https://www.yoyogames.com/gamemaker",
+    "tags": "games",
+    "type": "tools"
+  },
+  {
+    "name": "Unity",
+    "mini_desc": "Award winning games creation software and engine",
+    "img_url": "../boxes-img/unity.png",
+    "link": "https://unity.com/fr",
+    "tags": "games",
+    "type": "tools"
+  },
+  {
+    "name": "RPG Maker",
+    "mini_desc": "Desktop app to create rpg games",
+    "img_url": "../boxes-img/rpg.png",
+    "link": "https://www.rpgmakerweb.com/",
+    "tags": "games",
+    "type": "tools"
+  },
+  {
+    "name": "Unreal",
+    "mini_desc": "Industry-standard engine and software to make AAA videogames",
+    "img_url": "../boxes-img/unreal.png",
+    "link": "https://www.unrealengine.com/en-US/",
+    "tags": "games",
+    "type": "tools"
+  }
+]

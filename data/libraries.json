@@ -1,0 +1,160 @@
+[
+  {
+    "name": "jQuery",
+    "desc": "jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. It is free, open-source software using the permissive MIT License. Web analysis indicates that it is the most widely deployed JavaScript library by a large margin.",
+    "mini_desc": "Cross-platform  framework for animations and webpages",
+    "img_url": "../boxes-img/jquery.png",
+    "link": "https://jquery.com/",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "lib"
+  },
+  {
+    "name": "Bootstrap",
+    "desc": "Bootstrap is a free and open-source front-end web framework for designing websites and web applications. ",
+    "mini_desc": "HTML, CSS, javascript framework that you can use as a basis for creating web sites or web applications",
+    "img_url": "../boxes-img/bt.png",
+    "link": "https://getbootstrap.com/",
+    "tags": "front-end,web,mobile",
+    "lang": "css",
+    "type": "lib"
+  },
+  {
+    "name": "mini.css",
+    "mini_desc": "mini.css is a tiny CSS toolkit (under 7KB gzipped) that works well on most modern browse",
+    "img_url": "../boxes-img/minicss.png",
+    "link": "https://minicss.org/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "lib"
+  },
+  {
+    "name": "Skeleton",
+    "mini_desc": "A dead simple, responsive boilerplate.",
+    "img_url": "https://www.awwwards.com/awards/images/2013/02/responsive-css-frameworks-logo-14.jpg",
+    "link": "http://getskeleton.com/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "lib"
+  },
+  {
+    "name": "Material Design Lite",
+    "mini_desc": "Material Design Lite lets you add a Material Design look and feel to your websites",
+    "img_url": "https://cms-assets.tutsplus.com/uploads/users/30/posts/24370/preview_image/mdl.png",
+    "link": "https://getmdl.io/index.html",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "lib"
+  },
+  {
+    "name": "Tuesday",
+    "mini_desc": "A quirky CSS Animation Library",
+    "img_url": "../boxes-img/tuesday.png",
+    "link": "https://shakrmedia.github.io/tuesday/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "lib"
+  },
+  {
+    "name": "Animate.css",
+    "mini_desc": "Water-css animations library",
+    "img_url": "../boxes-img/animate.png",
+    "link": "https://daneden.github.io/animate.css/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "lib"
+  },
+  {
+    "name": "KubeCSS",
+    "mini_desc": "For professional developers and designers alike",
+    "link": "https://imperavi.com/kube/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "lib"
+  },
+  {
+    "name": "RocketCSS",
+    "mini_desc": "A framework that helps build clean, efficient and responsive websites.",
+    "img_url": "data:image/png;base64,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",
+    "link": "http://rocketcss.org/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "lib"
+  },
+  {
+    "name": "BlazeUI",
+    "mini_desc": "Blaze is an open source modular toolkit.",
+    "img_url": "../boxes-img/blaze.png",
+    "link": "https://www.blazeui.com/",
+    "tags": "front-end,web",
+    "lang": "css",
+    "type": "lib"
+  },
+  {
+    "name": "React",
+    "mini_desc": "A JavaScript library for building user interfaces by facebook",
+    "img_url": "https://cdn.worldvectorlogo.com/logos/react.svg",
+    "link": "https://reactjs.org/",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "lib"
+  },
+  {
+    "name": "Polymer",
+    "mini_desc": "Polymer is a JavaScript library that helps you create custom reusable HTML elements",
+    "img_url": "https://www.polymer-project.org/images/logos/p-logo.png",
+    "link": "https://www.polymer-project.org/",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "lib"
+  },
+  {
+    "name": "D3.JS",
+    "mini_desc": "D3.js is a JavaScript library for manipulating documents based on data",
+    "img_url": "https://cdn.dribbble.com/users/22018/screenshots/2456036/d3.png",
+    "link": "https://d3js.org/",
+    "tags": "front-end,web",
+    "lang": "javascript",
+    "type": "lib"
+  },
+  {
+    "name": "WPF",
+    "mini_desc": "Windows library to make native apps",
+    "img_url": "../boxes-img/WPF.webp",
+    "link": "https://docs.microsoft.com/fr-fr/dotnet/framework/wpf/getting-started/",
+    "tags": "software",
+    "type": "lib"
+  },
+  {
+    "name": "Popmotion",
+    "mini_desc": "Simple libraries for delightful interfaces",
+    "img_url": "../boxes-img/popmotion.png",
+    "link": "https://popmotion.io/",
+    "tags": "motion",
+    "type": "lib"
+  },
+  {
+    "name": "AnimeJS",
+    "mini_desc": "Anime.js�is a lightweight JavaScript animation library with a simple, yet powerful API.",
+    "img_url": "../boxes-img/animejs.png",
+    "link": "https://animejs.com/",
+    "tags": "motion",
+    "type": "lib"
+  },
+  {
+    "name": "MoJS",
+    "mini_desc": "The motion graphics toolbelt for the web",
+    "img_url": "../boxes-img/mojs.svg",
+    "link": "https://github.com/mojs/mojs",
+    "tags": "motion",
+    "type": "lib"
+  },
+  {
+    "name": "PaperJS",
+    "mini_desc": "Paper.js is an open source vector graphics scripting framework that runs on top of the HTML5 Canvas",
+    "img_url": "../boxes-img/paperjs.png",
+    "link": "http://paperjs.org/",
+    "tags": "motion",
+    "type": "lib"
+  }
+]
