@@ -4,7 +4,7 @@ const Footer = props => (
   <div className="footer">
     
     <div className="text-footer">
-      © 2021 – Built with NextJS hosted on Vercel
+      © 2021 
        <br></br>
       
     </div>

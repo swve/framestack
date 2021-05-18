@@ -1,12 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import ReactHover from "react-hover";
 
-const optionsCursorTrueWithMargin = {
-  followCursor: true,
-  shiftX: -90,
-  shiftY: -40,
-};
 
 const Header = (props) => (
   <div>
@@ -67,9 +61,9 @@ const Header = (props) => (
     <header>
       <div className="menu">
         <div className="top-info">
-          &nbsp; <img width="8px" src="../img/gmd.png"/> Graphicmade —
-          Articles, tutorials about tech, creativity, and more..{" "}
-          <a target="_blank" href="https://graphicmade.com/?ref=framestack">
+          Framestack is now open source ✨ {" "} —  {" "}
+          <a target="_blank" href="https://github.com/swve/framestack">
+            learn more
           </a>
         </div>
         <div className="menu-top">

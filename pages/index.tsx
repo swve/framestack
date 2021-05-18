@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import Link from "next/link";
 import { dataProvider } from "../services/dataProvider";
+import ProductBox from "../components/ui/productbox";
 
 const Index = props => (
   <Layout
@@ -38,26 +39,8 @@ const Index = props => (
       </div>
     </div>
     <div className="frame-layout">
-      {props.frameworks.map(frame => (
-        <div className="frame-box" key={frame.id}>
-          <div className="data">
-            <div className="title">{frame.name}</div>
-            <div className="description">{frame.mini_desc}</div>
-            <div className="tags">
-              <span>{frame.tags}</span>
-            </div>
-          </div>
-          <div className="second">
-            <div className="logo-frame">
-              <img alt={frame.name + " logo"} src={frame.img_url}/>
-            </div>
-            <div className="link">
-              <a target="_blank" href={frame.link+'?ref=framestack'}>
-                <img src="../img/link.png"/>
-              </a>
-            </div>
-          </div>
-        </div>
+      {props.frameworks.map(item => (
+        <ProductBox item={item} />
       ))}
     </div>
   </Layout>
