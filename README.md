@@ -24,7 +24,7 @@ Our [Code of Conduct](https://github.com/vercel/next.js/blob/canary/CODE_OF_COND
 
 ## Contributing
 
-Please see our [contributing.md](/contributing.md).
+Please see our [contributing.md](/CONTRIBUTING.md).
 
 ## Authors
 

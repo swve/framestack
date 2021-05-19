@@ -50,7 +50,7 @@ This project follows [GitHub's standard forking model](https://guides.github.com
   - `data/frameworks.json`
   - `data/libraries.json`
   - `data/tools.json`
-- Please be sure to follow others ressource format
+- Please be sure to follow ressources format
 
 ### Submitting New feature/bugfix to the project
 
