@@ -60,7 +60,7 @@ Web.getInitialProps = async function(context) {
   let paginator = new pagination();
 
   if (!type) {
-    var result = provider.getByTagsOnly("software", p ? p : 0);
+    var result = provider.getByTags("software", p ? p : 0);
   } else {
     var result = provider.getBy("software", p ? p : 0, type);
   }

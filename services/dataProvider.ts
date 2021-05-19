@@ -1,20 +1,35 @@
 import frameFile from "../data/frameworks.json";
 import libFile from "../data/libraries.json";
 import toolFile from "../data/tools.json";
-var jmespath = require("jmespath");
-let items = libFile.concat(frameFile, toolFile);
+import * as jmespath from "jmespath";
+
+const items = libFile.concat(frameFile, toolFile);
+
+interface SearchInterface {
+  keyword: string;
+  type: "tools" | "libraries" | "frameworks" | "*";
+  page?: number;
+}
 
 export class dataProvider {
-  
+  /**
+   * Get all ressources randomly
+   * @param limit
+   * @returns
+   */
   getAllWithLimit(limit) {
     function shuffle(array) {
       array.sort(() => Math.random() - 0.5);
     }
     shuffle(items);
-    var data = items.slice(0, limit);
+    const data = items.slice(0, limit);
     return data;
   }
 
+  /**
+   * Get all ressources
+   * @returns
+   */
   getAll() {
     function shuffle(array) {
       array.sort(() => Math.random() - 0.5);
@@ -23,12 +38,18 @@ export class dataProvider {
     return items;
   }
 
+  /**
+   * Get By Tags, Page and type
+   * @param tags
+   * @param page
+   * @param type
+   * @returns
+   */
   getBy(tags, page, type) {
-    // EDIT: will find a solution for the 0 array later
-    var startArray = 0 + page * 10;
-    var endArray = page * 10 + 10;
+    const startArray = 0 + page * 10;
+    const endArray = page * 10 + 10;
 
-    var dataTags = jmespath.search(
+    const dataTags = jmespath.search(
       items,
       "[?tags.contains(@, '" +
         tags +
@@ -36,39 +57,74 @@ export class dataProvider {
         type +
         "') == `true`]"
     );
-    var dataFinal = jmespath.search(
+    const dataFinal = jmespath.search(
       dataTags,
       "[" + startArray + ":" + endArray + "]"
     );
     return { result: dataFinal, nbr: dataTags.length };
   }
 
-  getByTagsOnly(tags, page) {
-    var startArray = 0 + page * 10;
-    var endArray = page * 10 + 10;
+  /**
+   * Get by tags only
+   * @param tags
+   * @param page
+   * @returns
+   */
+  getByTags(tags, page) {
+    const startArray = 0 + page * 10;
+    const endArray = page * 10 + 10;
 
-    var dataTags = jmespath.search(
+    const dataTags = jmespath.search(
       items,
       "[?tags.contains(@, '" + tags + "') == `true`]"
     );
-    var dataFinal = jmespath.search(
+    const dataFinal = jmespath.search(
       dataTags,
       "[" + startArray + ":" + endArray + "]"
     );
     return { result: dataFinal, nbr: dataTags.length };
   }
 
-  getList(type, page) {
-    var startArray = 0 + page * 10;
-    var endArray = page * 10 + 10;
-    var dataTags = jmespath.search(
+  /**
+   * Get by Type
+   * @param type
+   * @param page
+   * @returns
+   */
+  getByType(type, page) {
+    const startArray = 0 + page * 10;
+    const endArray = page * 10 + 10;
+    const dataTags = jmespath.search(
       items,
       "[?type.contains(@, '" + type + "') == `true`]"
     );
-    var dataFinal = jmespath.search(
+    const dataFinal = jmespath.search(
       dataTags,
       "[" + startArray + ":" + endArray + "]"
     );
     return { result: dataFinal, nbr: dataTags.length };
+  }
+
+  /**
+   * Search
+   * @param SearchObject
+   */
+  search(SearchObject: SearchInterface) {
+    const startArray = 0 + SearchObject.page * 10;
+    const endArray = SearchObject.page * 10 + 10;
+
+    const byKeyword = jmespath.search(
+      items,
+      "[?mini_desc.contains(@, '" +
+      SearchObject.keyword +
+        "') || name.contains(@, '" +
+        SearchObject.keyword +
+        "') == `true`]"
+    );
+    const dataFinal = jmespath.search(
+      byKeyword,
+      "[" + startArray + ":" + endArray + "]"
+    );
+    return { result: dataFinal, nbr: byKeyword.length };
   }
 }
