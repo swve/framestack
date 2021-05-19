@@ -44,7 +44,6 @@ export class dataProvider {
   }
 
   getByTagsOnly(tags, page) {
-    // EDIT: will find a solution for the 0 array later
     var startArray = 0 + page * 10;
     var endArray = page * 10 + 10;
 
