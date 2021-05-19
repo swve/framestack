@@ -12,7 +12,7 @@ const Contribute = (props) => {
           new features, <br /> or add your framework/libraries/tools by simply
           forking the project and making a Pull Request !{" "}
         </p>
-        <h2>Step 1</h2>
+        <h2><a href="https://github.com/swve/framestack/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">Contributing page </a></h2>
       </div>
     </Layout>
   );

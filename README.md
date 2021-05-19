@@ -20,7 +20,6 @@ Framestack is an open library of tools/frameworks/libraries you can use to creat
 
 The Framestack community can be found on [GitHub Discussions](https://github.com/swve/framestack/discussions), where you can ask questions, voice ideas, and share your projects.
 
-Our [Code of Conduct](https://github.com/vercel/next.js/blob/canary/CODE_OF_CONDUCT.md) applies to all Next.js community channels.
 
 ## Contributing
 
