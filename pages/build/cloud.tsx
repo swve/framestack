@@ -39,9 +39,9 @@ Web.getInitialProps = async function(context) {
   let paginator = new pagination();
 
   if (!type) {
-    var result = provider.getByTags("ai", p ? p : 0);
+    var result = provider.getByTags("cloud", p ? p : 0);
   } else {
-    var result = provider.getBy("ai", p ? p : 0, type);
+    var result = provider.getBy("cloud", p ? p : 0, type);
   }
 
   let pages = paginator.paginateBy(result.nbr, 9);

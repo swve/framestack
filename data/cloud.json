@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Amazon Web Services",
+    "desc": "...",
+    "mini_desc": "Well known fits-all cloud provider, provides services such as compute power, database storage, content delivery ",
+    "img_url": "../boxes-img/aws.png",
+    "link": "https://aws.com/",
+    "tags": "cloud",
+    "none": "nocode",
+    "type": "cloud"
+  },
+  {
+    "name": "Microsoft Azure",
+    "desc": "...",
+    "mini_desc": "The Cloud from Microsoft",
+    "img_url": "../boxes-img/azure.jpg",
+    "link": "https://azure.com/",
+    "tags": "cloud",
+    "none": "nocode",
+    "type": "cloud"
+  },
+  {
+    "name": "Google Cloud Platform",
+    "desc": "...",
+    "mini_desc": "General purposes Cloud services from Google",
+    "img_url": "../boxes-img/gcp.jpg",
+    "link": "https://cloud.google.com/",
+    "tags": "cloud",
+    "none": "nocode",
+    "type": "cloud"
+  },
+  {
+    "name": "OVHCloud",
+    "desc": "...",
+    "mini_desc": "Europe's most advanced Cloud Provider",
+    "img_url": "../boxes-img/ovh.jpg",
+    "link": "https://ovh.com/",
+    "tags": "cloud",
+    "none": "nocode",
+    "type": "cloud"
+  },
+  {
+    "name": "Scaleway",
+    "desc": "...",
+    "mini_desc": "Multi Cloud provider with focus on Performance/Price",
+    "img_url": "../boxes-img/scaleway.png",
+    "link": "https://scaleway.com/",
+    "tags": "cloud",
+    "none": "nocode",
+    "type": "cloud"
+  },
+  {
+    "name": "DigitalOcean",
+    "desc": "...",
+    "mini_desc": "General purposes Cloud focused on developers",
+    "img_url": "../boxes-img/digitalocean.png",
+    "link": "https://digitalocean.com/",
+    "tags": "cloud",
+    "none": "nocode",
+    "type": "cloud"
+  },
+  {
+    "name": "Vercel",
+    "desc": "...",
+    "mini_desc": "Front end Cloud Provider focuses on user experience and performance optimisation",
+    "img_url": "../boxes-img/vercel.png",
+    "link": "https://vercel.com/",
+    "tags": "cloud",
+    "none": "nocode",
+    "type": "cloud"
+  },
+  {
+    "name": "Netlify",
+    "desc": "...",
+    "mini_desc": "Front-end cloud provider focused on Modern Web Technologies",
+    "img_url": "../boxes-img/netlify.jpg",
+    "link": "https://netlify.com/",
+    "tags": "cloud",
+    "none": "nocode",
+    "type": "cloud"
+  },
+  {
+    "name": "Heroku",
+    "desc": "...",
+    "mini_desc": "General purposes Cloud Provider focused on developer experiences",
+    "img_url": "../boxes-img/heroku.png",
+    "link": "https://heroku.com/",
+    "tags": "cloud",
+    "none": "nocode",
+    "type": "cloud"
+  }
+]

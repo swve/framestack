@@ -1,9 +1,10 @@
 import frameFile from "../data/frameworks.json";
 import libFile from "../data/libraries.json";
 import toolFile from "../data/tools.json";
+import cloudFile from "../data/cloud.json";
 import * as jmespath from "jmespath";
 
-const items = libFile.concat(frameFile, toolFile);
+const items = libFile.concat(frameFile, toolFile,cloudFile);
 
 interface SearchInterface {
   keyword: string;
