@@ -60,7 +60,7 @@ Web.getInitialProps = async function(context) {
   let paginator = new pagination();
 
   if (!type) {
-    var result = provider.getByTagsOnly("motion", p ? p : 0);
+    var result = provider.getByTags("motion", p ? p : 0);
   } else {
     var result = provider.getBy("motion", p ? p : 0, type);
   }

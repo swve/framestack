@@ -1,14 +1,13 @@
 import { dataProvider } from "../dataProvider";
 const linkCheck = require("link-check");
 import isUrl from "is-url";
+const provider = new dataProvider();
 
 test("getAll", () => {
-  const provider = new dataProvider();
   expect(provider.getAllWithLimit(9).length).toBe(9);
 });
 
 test("productImagesTest", () => {
-  const provider = new dataProvider();
   const products = provider.getAll();
   products.forEach((product) => {
     if (isUrl(product.img_url) == true) {
@@ -21,4 +20,8 @@ test("productImagesTest", () => {
       });
     }
   });
+});
+
+test("search", () => {
+  console.log(provider.search({ keyword: "Ruby Hanami", type: "*" }));
 });
