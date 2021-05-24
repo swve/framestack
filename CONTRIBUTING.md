@@ -1,18 +1,18 @@
 # Contributing to Framestack
 
-> Please note that this project is released with a [Contributor Code of Conduct](./CODE_OF_CONDUCT.md).
-> By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](./CODE_OF_CONDUCT.md).
+By participating in this project you agree to abide by its terms.
 
 ## Code Structure
 
 Currently, the is split up into these categories:
 
-- **components** : React UI elements blocks
-- **data** : json files that contains the actual libraries/tools/tools their tags, images icons & link to their respective websites
-- **pages** : Website pages written with React and NextJS (see Nextjs Docs)
-- **public** : Website static images & data's images
-- **services** : Functions that are used in the websites pages to retrieve data from the json files and various other miscellaneous functions to separate logic from UI
-- **styles** : SCSS Styles
+- **Components** : React UI Elements blocks
+- **Data** : JSON files that contains the actual libraries/tools/tools, their tags, images icons & link to their respective websites
+- **Pages** : Static pages written in Typescript with React and NextJS (see Nextjs Docs)
+- **Public** : Website static images & Ressources images
+- **Services** : Miscellaneous functions that pass data from the dataset to the visual side (Pages, React, HTML)
+- **Styles** : SCSS Styles
 
 ## Commands
 
@@ -32,7 +32,7 @@ $ npm run test
 
 This project follows [GitHub's standard forking model](https://guides.github.com/activities/forking/). Please fork the project to submit pull requests.
 
-### Submitting New ressource (library, framework, tool) to the dataset
+### Submitting a ressource (library, framework, tool) to the dataset
 
 - Create Issue with tag `new ressource`
 - Fork the repository
@@ -50,9 +50,10 @@ This project follows [GitHub's standard forking model](https://guides.github.com
   - `data/frameworks.json`
   - `data/libraries.json`
   - `data/tools.json`
-- Please be sure to follow ressources format
+  - `data/cloud.json`
+- Please be sure to follow ressources json file format
 
-### Submitting New feature/bugfix to the project
+### Submitting a feature/bugfix to the project
 
 - Create Issue with tag `enhancement` or `bug`
 - Fork the repository
@@ -61,3 +62,5 @@ This project follows [GitHub's standard forking model](https://guides.github.com
 - Push your commits to your forked repo
 - Make a Pull request
 - Request will be added after review
+
+
