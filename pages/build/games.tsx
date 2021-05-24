@@ -3,6 +3,7 @@ import Link from "next/link";
 import { dataProvider } from "../../services/dataProvider";
 import pagination from "../../services/pagination";
 import ProductBox from "../../components/ui/productbox";
+import HeroLinks from "../../components/ui/herolinks";
 
 const Web = props => {
   return (
@@ -12,7 +13,7 @@ const Web = props => {
     >
       <div className="hero-build">
         <span className="badge">Build</span>
-        <h1>Games</h1>
+        <HeroLinks title="Games" ></HeroLinks>
         <div className="types">
           <Link href="?">
             <a>

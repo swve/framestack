@@ -3,13 +3,14 @@ import Link from "next/link";
 import { dataProvider } from "../services/dataProvider";
 import pagination from "../services/pagination";
 import ProductBox from "../components/ui/productbox";
+import HeroLinks from "../components/ui/herolinks";
 
 const Web = props => {
   return (
     <Layout title="Tools" desc="No-code tools so you can build your next project without the hassle">
       <div className="hero-build">
         <span className="badge">List</span>
-        <h1>Tools</h1>
+        <HeroLinks title="Tools" ></HeroLinks>
        
       </div>
       <div className="frame-def">
