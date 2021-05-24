@@ -11,7 +11,7 @@
   {
     "name": "Laravel",
     "mini_desc": "Laravel is a web application framework with expressive, elegant syntax. ",
-    "img_url": "https://cdn.worldvectorlogo.com/logos/laravel.svg",
+    "img_url": "../boxes-img/laravel.png",
     "link": "https://laravel.com/",
     "tags": "back-end,web,api",
     "lang": "php",
@@ -289,7 +289,7 @@
   {
     "name": "Phalcon",
     "mini_desc": "A full-stack PHP framework delivered as a C-extension",
-    "img_url": "https://www.gajotres.net/wp-content/uploads/2014/01/phalcon-php-logo.png",
+    "img_url": "../boxes-img/phalcon.jpg",
     "link": "https://phalconphp.com/en/",
     "tags": "front-end,web",
     "lang": "php",
@@ -343,7 +343,7 @@
   {
     "name": "Ruby on rails",
     "mini_desc": "Server-side web application framework written in Ruby",
-    "img_url": "https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/1/formation-ruby-on-rails.png",
+    "img_url": "../boxes-img/rails.png",
     "link": "http://rubyonrails.org/",
     "tags": "back-end,web,api",
     "lang": "ruby",
@@ -460,7 +460,7 @@
   {
     "name": "Falcon",
     "mini_desc": "Falcon is a bare-metal Python web API framework for building very fast app backends and microservices.",
-    "img_url": "https://falconframework.org/img/logo.svg",
+    "img_url": "../boxes-img/phalcon.jpg",
     "link": "https://falconframework.org/",
     "tags": "back-end,web,api",
     "lang": "python",

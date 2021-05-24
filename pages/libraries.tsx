@@ -3,6 +3,7 @@ import Link from "next/link";
 import { dataProvider } from "../services/dataProvider";
 import pagination from "../services/pagination";
 import ProductBox from "../components/ui/productbox";
+import HeroLinks from "../components/ui/herolinks";
 
 const Web = props => {
   return (
@@ -12,16 +13,16 @@ const Web = props => {
     >
       <div className="hero-build">
         <span className="badge">List</span>
-        <h1>Libraries</h1>
+        <HeroLinks title="Libraries" ></HeroLinks>
       </div>
       <div className="frame-def">
         {props.items.map(item => (
-          <ProductBox item={item} />
+          <ProductBox item={item} key={item.link} />
         ))}
       </div>
       <div className="pages">
         {props.tabPages.map(page => (
-          <Link href={"?p=" + page}>
+          <Link key={page} href={"?p=" + page}>
             <a key={page}>{page}</a>
           </Link>
         ))}

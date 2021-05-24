@@ -8,34 +8,13 @@ import HeroLinks from "../../components/ui/herolinks";
 const Web = props => {
   return (
     <Layout
-      title="Build artificial intelligence apps"
-      desc="Frameworks, libraries and tools to help you make AI apps"
+      title="Build your projects on the Cloud"
+      desc="Cloud services to help you build your next project "
     >
       <div className="hero-build">
         <span className="badge">Build</span>
-        <HeroLinks title="Artificial Intelligence/Machine Learning" ></HeroLinks>
-        <div className="types">
-          <Link href="?">
-            <a>
-              <span className="type-btn">All</span>
-            </a>
-          </Link>
-          <Link href="?type=frame">
-            <a>
-              <span className="type-btn">Frameworks</span>
-            </a>
-          </Link>
-          <Link href="?type=lib">
-            <a>
-              <span className="type-btn">Libraries</span>
-            </a>
-          </Link>
-          <Link href="?type=tools">
-            <a>
-              <span className="type-btn">Tools</span>
-            </a>
-          </Link>
-        </div>
+        <HeroLinks title="Cloud Services" ></HeroLinks>
+        
       </div>
       <div className="frame-def">
         {props.items.map(item => (
@@ -44,7 +23,7 @@ const Web = props => {
       </div>
       <div className="pages">
         {props.tabPages.map(page => (
-          <Link href={{ pathname: "", query: { type: props.type, p: page } }}>
+          <Link href={{ pathname: "", query: { type: "cloud", p: page } }}>
             <a key={page}>{page}</a>
           </Link>
         ))}
@@ -61,9 +40,9 @@ Web.getInitialProps = async function(context) {
   let paginator = new pagination();
 
   if (!type) {
-    var result = provider.getByTags("ai", p ? p : 0);
+    var result = provider.getByTags("cloud", p ? p : 0);
   } else {
-    var result = provider.getBy("ai", p ? p : 0, type);
+    var result = provider.getBy("cloud", p ? p : 0, type);
   }
 
   let pages = paginator.paginateBy(result.nbr, 9);

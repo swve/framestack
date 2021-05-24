@@ -36,11 +36,15 @@ const Index = props => (
         <Link href="/build/motion">
           <a className="build-btn">Motion</a>
         </Link>
+        <Link href="/build/cloud">
+          <a className="build-btn">Cloud <span style={{fontSize:8 , color:"#f9a911"}}>New</span></a> 
+          
+        </Link>
       </div>
     </div>
     <div className="frame-layout">
       {props.frameworks.map(item => (
-        <ProductBox item={item} />
+        <ProductBox item={item} key={item.link} />
       ))}
     </div>
   </Layout>

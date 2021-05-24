@@ -97,6 +97,11 @@ function Header(props) {
                     <a>tools</a>
                   </Link>
                 </li>
+                <li>
+                  <Link href="/build/cloud">
+                    <a>services</a>
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="search">

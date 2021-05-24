@@ -7,8 +7,8 @@ import ProductBox from "../components/ui/productbox";
 const Search = (props) => {
   return (
     <Layout
-      title="Build native and hybrid mobile apps easily"
-      desc="Frameworks, libraries and tools to help you make mobile apps"
+      title="Search"
+      desc="Search"
     >
       <div className="hero-build">
         <span className="badge">Search</span>
@@ -38,7 +38,7 @@ const Search = (props) => {
       </div>
       <div className="frame-def">
         {props.items.map((item) => (
-          <ProductBox item={item} />
+          <ProductBox item={item} key={item.link} />
         ))}
       </div>
       <div className="pages">

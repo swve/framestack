@@ -137,6 +137,37 @@ h1 {
   }
 }
 
+.links_header{
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: $size-mobile) {
+    flex-direction: column;
+  }
+  .add_data_github {
+    font-size: small;
+    border-bottom: 9px;
+    background-color: #dacff0;
+    color: #3d1b83;
+    padding: 5px 8px 5px 10px;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: Opx;
+    span {
+      font-size: small;
+    }
+    a {
+      text-decoration: none;
+      color: #3d1b83;
+    }
+  
+    @media (max-width: $size-mobile) {
+      margin-top: 25px;
+      text-align: center;
+    }
+  }
+}
+
 .links {
   grid-area: links;
   margin-top: auto;

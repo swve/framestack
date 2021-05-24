@@ -67,6 +67,7 @@
   {
     "name": "KubeCSS",
     "mini_desc": "For professional developers and designers alike",
+    "img_url" : "../boxes-img/kube.png",
     "link": "https://imperavi.com/kube/",
     "tags": "front-end,web",
     "lang": "css",
@@ -93,7 +94,7 @@
   {
     "name": "React",
     "mini_desc": "A JavaScript library for building user interfaces by facebook",
-    "img_url": "https://cdn.worldvectorlogo.com/logos/react.svg",
+    "img_url": "../boxes-img/react.png",
     "link": "https://reactjs.org/",
     "tags": "front-end,web",
     "lang": "javascript",
