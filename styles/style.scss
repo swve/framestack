@@ -14,6 +14,7 @@ I'm concerned that code below is globally terrible, and doesn't necessarily foll
 $size-mobile: 480px;
 
 @import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 body {
   margin: 0px;
@@ -36,17 +37,17 @@ h1 {
 }
 
 // New menu
-.top-info{
+.top-info {
   font-size: 11px;
-    text-align: center;
-    font-weight: 700;
-    color: #251052;
-    padding: 9px;
-    a{
-      color:#1b0c3b;
-    }
+  text-align: center;
+  font-weight: 700;
+  color: #251052;
+  padding: 9px;
+  a {
+    color: #1b0c3b;
+  }
 }
-.menuremp{
+.menuremp {
   background-color: white;
   height: 70px; //40px old
   @media (max-width: $size-mobile) {
@@ -58,7 +59,7 @@ h1 {
   width: 100%;
   z-index: 100;
   backdrop-filter: saturate(180%) blur(14px);
-  -webkit-backdrop-filter :saturate(180%) blur(14px);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
   background-color: rgba(255, 255, 255, 0.8);
   display: grid;
   grid-template-columns: 1fr;
@@ -154,9 +155,7 @@ h1 {
       a {
         text-decoration: none;
         color: #3a1882;
-        
       }
-      
     }
   }
   @media (max-width: $size-mobile) {
@@ -164,7 +163,7 @@ h1 {
   }
 }
 
-#contribute{
+#contribute {
   background-color: #3d1b83;
   color: white;
   border-radius: 6px;
@@ -173,21 +172,37 @@ h1 {
 
 .search {
   grid-area: search;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(86, 38, 187, 0.08);
+  border-radius: 5px;
+  border: none;
+  margin: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #3a1882;
+  padding-left: 12px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 95%;
+  font-family: "Inter", sans-serif;
+
   input[type="text"] {
-    background: rgba(86, 38, 187, 0.08);
+    background: none;
     border-radius: 5px;
     border: none;
-    margin: auto;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    color: #3a1882;
-    padding-left: 12px;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 95%;
-    color: #3a1882;
-    font-family: "Inter", sans-serif;
+    width: 80%;
   }
+
+  .search_btn_info {
+    font-size: x-small;
+    margin: auto;
+    margin-right: 20px;
+  }
+
+  span{
+    font-size: small;
+  };
   input::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #3a1882;
@@ -428,7 +443,7 @@ h1 {
   img {
     width: 40px;
     border-radius: 6px;
-    box-shadow: 0px 14px 16px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 14px 16px rgba(0, 0, 0, 0.1);
   }
 }
 

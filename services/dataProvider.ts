@@ -112,19 +112,44 @@ export class dataProvider {
   search(SearchObject: SearchInterface) {
     const startArray = 0 + SearchObject.page * 10;
     const endArray = SearchObject.page * 10 + 10;
-
-    const byKeyword = jmespath.search(
-      items,
-      "[?mini_desc.contains(@, '" +
-      SearchObject.keyword +
-        "') || name.contains(@, '" +
-        SearchObject.keyword +
-        "') == `true`]"
-    );
-    const dataFinal = jmespath.search(
-      byKeyword,
-      "[" + startArray + ":" + endArray + "]"
-    );
-    return { result: dataFinal, nbr: byKeyword.length };
+    if (SearchObject.type == "*") {
+      let search = jmespath.search(
+        items,
+        "[?mini_desc.contains(@, '" +
+          SearchObject.keyword +
+          "') || tags.contains(@, '" +
+          SearchObject.keyword +
+          "') || name.contains(@, '" +
+          SearchObject.keyword +
+          "') == `true`]"
+      );
+      const dataFinal = jmespath.search(
+        search,
+        "[" + startArray + ":" + endArray + "]"
+      );
+      return { result: dataFinal, nbr: search.length };
+    } else {
+      let byKeyword = jmespath.search(
+        items,
+        "[?mini_desc.contains(@, '" +
+          SearchObject.keyword +
+          "') || tags.contains(@, '" +
+          SearchObject.keyword +
+          "') || name.contains(@, '" +
+          SearchObject.keyword +
+          "') == `true`]"
+      );
+      let byType = jmespath.search(
+        byKeyword,
+        "[?type.contains(@, '" +
+          SearchObject.type +
+          "') == `true`]"
+      );
+      const dataFinal = jmespath.search(
+        byType,
+        "[" + startArray + ":" + endArray + "]"
+      );
+      return { result: dataFinal, nbr: byType.length };
+    }
   }
 }

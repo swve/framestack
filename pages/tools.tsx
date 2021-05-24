@@ -36,7 +36,6 @@ Web.getInitialProps = async function(context) {
 
   let result = provider.getByType("tool", p ? p : 0);
   let pages = paginator.paginateBy(result.nbr, 9);
-  console.log(result);
   return {
     items: result.result.map(entry => entry),
     pageNbr: p,
