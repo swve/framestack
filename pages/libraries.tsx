@@ -17,12 +17,12 @@ const Web = props => {
       </div>
       <div className="frame-def">
         {props.items.map(item => (
-          <ProductBox item={item} />
+          <ProductBox item={item} key={item.link} />
         ))}
       </div>
       <div className="pages">
         {props.tabPages.map(page => (
-          <Link href={"?p=" + page}>
+          <Link key={page} href={"?p=" + page}>
             <a key={page}>{page}</a>
           </Link>
         ))}

@@ -44,7 +44,7 @@ const Index = props => (
     </div>
     <div className="frame-layout">
       {props.frameworks.map(item => (
-        <ProductBox item={item} />
+        <ProductBox item={item} key={item.link} />
       ))}
     </div>
   </Layout>

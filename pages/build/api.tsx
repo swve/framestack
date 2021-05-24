@@ -39,7 +39,7 @@ const Web = props => {
       </div>
       <div className="frame-def">
         {props.items.map(item => (
-          <ProductBox item={item} />
+          <ProductBox item={item} key={item.link} />
         ))}
       </div>
       <div className="pages">
