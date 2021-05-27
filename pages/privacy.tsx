@@ -78,7 +78,7 @@ const Privacy = (props) => {
         <p>We use Vercel as a front-end platform to host & deploy Framestack</p>
         <h2>Code verification </h2>
         <p>Framestack code is completely open-source, I even deploy the website directly from the github repository</p> 
-        <p>Check Framestack's code source at : <a href="https://github.com/swve/framestack" target="_blank" rel="noopener noreferrer">swve/framstack</a></p>
+        <p>Check Framestack's code source at : <a href="https://github.com/swve/framestack" target="_blank" rel="noopener noreferrer">swve/framestack</a></p>
       </div>
     </Layout>
   );
