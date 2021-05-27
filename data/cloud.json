@@ -7,7 +7,8 @@
     "link": "https://aws.com/",
     "tags": "cloud",
     "none": "nocode",
-    "type": "cloud"
+    "type": "cloud",
+    "lang" : "js,php,python,java"
   },
   {
     "name": "Microsoft Azure",
@@ -17,7 +18,8 @@
     "link": "https://azure.com/",
     "tags": "cloud",
     "none": "nocode",
-    "type": "cloud"
+    "type": "cloud",
+    "lang" : "js,php,python,java"
   },
   {
     "name": "Google Cloud Platform",
@@ -27,7 +29,8 @@
     "link": "https://cloud.google.com/",
     "tags": "cloud",
     "none": "nocode",
-    "type": "cloud"
+    "type": "cloud",
+    "lang" : "js,php,python,java"
   },
   {
     "name": "OVHCloud",
@@ -37,7 +40,8 @@
     "link": "https://ovh.com/",
     "tags": "cloud",
     "none": "nocode",
-    "type": "cloud"
+    "type": "cloud",
+    "lang" : "js,php,python,java"
   },
   {
     "name": "Scaleway",
@@ -47,7 +51,8 @@
     "link": "https://scaleway.com/",
     "tags": "cloud",
     "none": "nocode",
-    "type": "cloud"
+    "type": "cloud",
+    "lang" : "js,php,python,java"
   },
   {
     "name": "DigitalOcean",
@@ -57,7 +62,8 @@
     "link": "https://digitalocean.com/",
     "tags": "cloud",
     "none": "nocode",
-    "type": "cloud"
+    "type": "cloud",
+    "lang" : "js,php,python,java"
   },
   {
     "name": "Vercel",
@@ -67,7 +73,8 @@
     "link": "https://vercel.com/",
     "tags": "cloud",
     "none": "nocode",
-    "type": "cloud"
+    "type": "cloud",
+    "lang" : "js,php,python,java"
   },
   {
     "name": "Netlify",
@@ -77,7 +84,8 @@
     "link": "https://netlify.com/",
     "tags": "cloud",
     "none": "nocode",
-    "type": "cloud"
+    "type": "cloud",
+    "lang" : "js,php,python,java"
   },
   {
     "name": "Heroku",
@@ -87,6 +95,7 @@
     "link": "https://heroku.com/",
     "tags": "cloud",
     "none": "nocode",
-    "type": "cloud"
+    "type": "cloud",
+    "lang" : "js,php,python,java"
   }
 ]
