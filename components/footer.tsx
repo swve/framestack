@@ -8,7 +8,7 @@ const Footer = props => (
        <br></br>
       
     </div>
-    <a href="https://github.com/swve" target="_blank" ><img src="../img/sweave.png"/></a>
+    <a href="https://github.com/swve" target="_blank" rel="noreferrer" ><img alt="Sweave logo" src="../img/sweave.png"/></a>
     <br></br>
    
   </div>
