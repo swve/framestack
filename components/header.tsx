@@ -68,15 +68,15 @@ function Header(props) {
         <div className="menu">
           <div className="top-info">
             Framestack is now open source ✨ —{" "}
-            <a target="_blank" href="https://github.com/swve/framestack">
-              learn more
+            <a target="_blank" rel="noreferrer" href="https://github.com/swve/framestack">
+              GitHub Repository
             </a>
           </div>
           <div className="menu-top">
             <div className="logo">
               <Link href="/">
                 <a>
-                  <img src="../img/logo.png" />
+                  <img alt="Framestack logo" src="../img/logo.png" />
                 </a>
               </Link>
             </div>

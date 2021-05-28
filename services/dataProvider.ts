@@ -4,7 +4,7 @@ import toolFile from "../data/tools.json";
 import cloudFile from "../data/cloud.json";
 import * as jmespath from "jmespath";
 
-const items = libFile.concat(frameFile, toolFile,cloudFile);
+const items = libFile.concat(frameFile, toolFile, cloudFile);
 
 interface SearchInterface {
   keyword: string;
@@ -142,9 +142,7 @@ export class dataProvider {
       );
       let byType = jmespath.search(
         byKeyword,
-        "[?type.contains(@, '" +
-          SearchObject.type +
-          "') == `true`]"
+        "[?type.contains(@, '" + SearchObject.type + "') == `true`]"
       );
       const dataFinal = jmespath.search(
         byType,

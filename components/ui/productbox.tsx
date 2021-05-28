@@ -12,8 +12,8 @@ const ProductBox = (props) => (
         <img alt={props.item.name + " logo"} src={props.item.img_url} />
       </div>
       <div className="link">
-        <a target="_blank" href={props.item.link + "?ref=framestack"}>
-          <img src="../img/link.png" />
+        <a target="_blank" rel="noreferrer" href={props.item.link + "?ref=framestack"}>
+          <img alt="link-image" src="../img/link.png" />
         </a>
       </div>
     </div>

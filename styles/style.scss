@@ -473,6 +473,7 @@ h1 {
 
   img {
     width: 40px;
+    height: auto;
     border-radius: 6px;
     box-shadow: 0px 14px 16px rgba(0, 0, 0, 0.1);
   }
@@ -486,6 +487,7 @@ h1 {
   a {
     img {
       width: 25px;
+      height: 25px;
       opacity: 0.9;
     }
     text-decoration: none;
@@ -582,5 +584,6 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 80px;
+    height: 15px;
   }
 }
