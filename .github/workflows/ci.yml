@@ -17,6 +17,7 @@ jobs:
       - run: npm run build
 
   start:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -24,4 +25,5 @@ jobs:
         with:
           node-version: "12"
       - run: npm ci
+      - run: npm run build
       - run: npm run start
