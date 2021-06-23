@@ -33,7 +33,7 @@ Web.getInitialProps = async function(context) {
   let paginator = new pagination();
 
   var { p } = context.query;
-  let result = provider.getByType("tool", p ? p : 0);
+  let result = provider.getByType("frame", p ? p : 0);
   let pages = paginator.paginateBy(result.nbr, 9);
 
   return {
