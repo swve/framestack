@@ -103,3 +103,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Apple
+.DS_Store
+.AppleDouble
+.LSOverride
