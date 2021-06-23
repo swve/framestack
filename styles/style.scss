@@ -137,7 +137,7 @@ h1 {
   }
 }
 
-.links_header{
+.links_header {
   display: flex;
   justify-content: space-between;
   @media (max-width: $size-mobile) {
@@ -160,7 +160,7 @@ h1 {
       text-decoration: none;
       color: #3d1b83;
     }
-  
+
     @media (max-width: $size-mobile) {
       margin-top: 25px;
       text-align: center;
@@ -231,9 +231,9 @@ h1 {
     margin-right: 20px;
   }
 
-  span{
+  span {
     font-size: small;
-  };
+  }
   input::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #3a1882;
@@ -293,15 +293,17 @@ h1 {
   ul {
     display: flex;
     li {
-      margin-right: 20px;
-      font-family: Inter;
-      font-style: normal;
-      font-weight: 800;
-      font-size: 16px;
-      line-height: 19px;
-      letter-spacing: -0.04em;
-
-      color: #3a1882;
+      a {
+        margin-right: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.04em;
+        text-decoration: none;
+        color: #3a1882;
+      }
     }
   }
 }

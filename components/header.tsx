@@ -132,10 +132,27 @@ function Header(props) {
           </div>
           <div className="menu-mobile">
             <div className="mobile-links">
-              <ul>
-                <li>frameworks</li>
-                <li>libraries</li>
-                <li>tools</li>
+            <ul>
+                <li>
+                  <Link href="/frameworks">
+                    <a>frameworks</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/libraries">
+                    <a>libraries</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/tools">
+                    <a>tools</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/build/cloud">
+                    <a>services</a>
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="mobile-secondary"></div>
