@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 const Privacy = (props) => {
   return (
     <Layout title="Privacy" desc="Privacy Policy">
-      <div className="hero-build" style={{ width: 700 }}>
+      <div className="hero-privacy" >
         <h1>Privacy</h1>
         <h2>Analytics</h2>
         <p>
