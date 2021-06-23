@@ -31,14 +31,7 @@ const About = (props) => {
             reality{" "}
           </p>
           <div
-            style={{
-              display: "flex",
-              justifyContent: "space-around",
-              margin: "auto",
-              marginTop: "70px",
-              marginBottom: "70px",
-              width: "80%",
-            }}
+            className="hero-features"
           >
             <div className="icon-feature" style={{ width: 250 }}>
               <img width="50" src="/img/frameworks-icon.png"></img>

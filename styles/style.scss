@@ -538,6 +538,28 @@ h1 {
     line-height: 50px;
     letter-spacing: -0.04em;
     color: #251052;
+
+    @media (max-width: $size-mobile) {
+      //background-color: red;
+    }
+  }
+  p {
+    @media (max-width: $size-mobile) {
+      width: auto !important;
+    }
+  }
+
+  .hero-features {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 80%;
+
+    @media (max-width: $size-mobile) {
+      flex-direction: column;
+    }
   }
 }
 
@@ -587,5 +609,18 @@ h1 {
     margin-bottom: 20px;
     width: 80px;
     height: 15px;
+  }
+}
+
+.hero-privacy{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 40px;
+
+  h1{
+
+  }
+  p{
+    width: auto;
   }
 }
