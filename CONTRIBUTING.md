@@ -32,9 +32,9 @@ $ npm run test
 
 This project follows [GitHub's standard forking model](https://guides.github.com/activities/forking/). Please fork the project to submit pull requests.
 
-### Submitting a ressource (library, framework, tool) to the dataset
+### Submitting a resource (library, framework, tool) to the dataset
 
-- Create Issue with tag `new ressource`
+- Create Issue with tag `new resource`
 - Fork the repository
 - Clone your fork locally
 - Create a new branch and make your commits
