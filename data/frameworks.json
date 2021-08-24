@@ -37,6 +37,16 @@
     "type": "frame"
   },
   {
+    "name": "Deno",
+    "desc": "",
+    "mini_desc": "A secure runtime for JavaScript and TypeScript, made by Nodejs creator",
+    "img_url": "../boxes-img/deno.png",
+    "link": "https://deno.land/",
+    "tags": "back-end,web,api",
+    "lang": "javascript",
+    "type": "frame"
+  },
+  {
     "name": "AngularJS",
     "desc": "a google framework",
     "mini_desc": "AngularJS is a structural framework for dynamic web apps. ",
