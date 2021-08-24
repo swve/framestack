@@ -112,7 +112,7 @@ export class dataProvider {
    * @param s 
    * @returns 
    */
-   function capitalize(s){
+  capitalize(s){
     if (typeof s !== 'string') return ''
     return s.charAt(0).toUpperCase() + s.slice(1)
   }
@@ -125,7 +125,7 @@ export class dataProvider {
   search(SearchObject: SearchInterface) {
     const startArray = 0 + SearchObject.page * 10;
     const endArray = SearchObject.page * 10 + 10;
-    SearchObject.keyword = capitalize(SearchObject.keyword);
+    SearchObject.keyword = this.capitalize(SearchObject.keyword);
 
     if (SearchObject.type == "*") {
       let search = jmespath.search(
