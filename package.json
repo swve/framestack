@@ -11,7 +11,7 @@
   "dependencies": {
     "jmespath": "^0.15.0",
     "link-check": "^4.5.4",
-    "next": "11.1.0",
+    "next": "11.1.1",
     "next-plausible": "^1.6.1",
     "nextjs-progressbar": "^0.0.9",
     "react": "17.0.2",
