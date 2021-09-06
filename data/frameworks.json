@@ -70,7 +70,7 @@
     "name": "Foundation",
     "desc": "Highly customizable and powerful front-end framework, designed with ease",
     "mini_desc": "Highly customizable and powerful front-end framework, designed with ease",
-    "img_url": "https://foundation.zurb.com/assets/img/develop/contribute/logo-yeti.gif",
+    "img_url": "../boxes-img/foundation.jpg",
     "link": "http://foundation.zurb.com/",
     "tags": "front-end,web",
     "lang": "css",
@@ -326,7 +326,7 @@
   {
     "name": "Aura",
     "mini_desc": "Powerful tools for powerful applications.",
-    "img_url": "http://auraphp.com/img/aura-logo-black.png",
+    "img_url": "../boxes-img/aura.png",
     "link": "http://auraphp.com/",
     "tags": "back-end,web",
     "lang": "php",
@@ -362,7 +362,7 @@
   {
     "name": "Sinatra",
     "mini_desc": "Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort",
-    "img_url": "http://sinatrarb.com/sinatra.github.com/images/logo.png",
+    "img_url": "../boxes-img/sinatra.png",
     "link": "http://sinatrarb.com/",
     "tags": "back-end,web,api",
     "lang": "ruby",
@@ -432,6 +432,15 @@
     "type": "frame"
   },
   {
+    "name": "FastAPI",
+    "mini_desc": "FastAPI is a modern, fast, web framework for building APIs with Python 3.6+ based on standard Python type hints.",
+    "img_url": "../boxes-img/fastapi.jpg",
+    "link": "https://fastapi.tiangolo.com/",
+    "tags": "back-end,web,api",
+    "lang": "python",
+    "type": "frame"
+  },
+  {
     "name": "Flask",
     "mini_desc": "Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions",
     "img_url": "http://flask-training-courses.uk/images/flask-logo.png",
@@ -452,7 +461,7 @@
   {
     "name": "CherryPy",
     "mini_desc": "A Minimalist Python Web Framework",
-    "img_url": "http://cherrypy.org/images/cherrypy.png",
+    "img_url": "../boxes-img/cherry.png",
     "link": "http://cherrypy.org/",
     "tags": "back-end,web",
     "lang": "python",
