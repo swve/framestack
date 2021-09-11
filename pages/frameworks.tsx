@@ -4,6 +4,7 @@ import { dataProvider } from "../services/dataProvider";
 import pagination from "../services/pagination";
 import ProductBox from "../components/ui/productbox";
 import HeroLinks from "../components/ui/herolinks";
+import PagesLink from "../components/ui/pageslinks";
 
 const Web = props => {
   return (
@@ -17,13 +18,7 @@ const Web = props => {
           <ProductBox item={item} key={item.link} />
         ))}
       </div>
-      <div className="pages">
-        {props.tabPages.map(page => (
-          <Link key={page} href={"?p=" + page}>
-            <a key={page}>{page}</a>
-          </Link>
-        ))}
-      </div>
+      <PagesLink tabPages={props.tabPages} pageNbr={props.pageNbr}></PagesLink>
     </Layout>
   );
 };

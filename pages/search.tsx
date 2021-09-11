@@ -3,6 +3,7 @@ import Link from "next/link";
 import { dataProvider } from "../services/dataProvider";
 import pagination from "../services/pagination";
 import ProductBox from "../components/ui/productbox";
+import PagesLink from "../components/ui/pageslinks";
 
 const Search = (props) => {
   return (
@@ -41,13 +42,7 @@ const Search = (props) => {
           <ProductBox item={item} key={item.link} />
         ))}
       </div>
-      <div className="pages">
-        {props.tabPages.map((page) => (
-          <Link href={{ pathname: "", query: { type: props.type, p: page , query:props.query} }}>
-            <a key={page}>{page}</a>
-          </Link>
-        ))}
-      </div>
+      <PagesLink tabPages={props.tabPages} pageNbr={props.pageNbr}></PagesLink>
     </Layout>
   );
 };

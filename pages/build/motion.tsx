@@ -4,8 +4,9 @@ import { dataProvider } from "../../services/dataProvider";
 import pagination from "../../services/pagination";
 import ProductBox from "../../components/ui/productbox";
 import HeroLinks from "../../components/ui/herolinks";
+import PagesLink from "../../components/ui/pageslinks";
 
-const Web = props => {
+const Web = (props) => {
   return (
     <Layout
       title="Build Motion experiences"
@@ -13,7 +14,7 @@ const Web = props => {
     >
       <div className="hero-build">
         <span className="badge">Build</span>
-        <HeroLinks title="Motion" ></HeroLinks>
+        <HeroLinks title="Motion"></HeroLinks>
         <div className="types">
           <Link href="?">
             <a>
@@ -38,22 +39,16 @@ const Web = props => {
         </div>
       </div>
       <div className="frame-def">
-        {props.items.map(item => (
+        {props.items.map((item) => (
           <ProductBox item={item} key={item.link} />
         ))}
       </div>
-      <div className="pages">
-        {props.tabPages.map(page => (
-          <Link href={{ pathname: "", query: { type: props.type, p: page } }}>
-            <a key={page}>{page}</a>
-          </Link>
-        ))}
-      </div>
+      <PagesLink tabPages={props.tabPages} pageNbr={props.pageNbr}></PagesLink>
     </Layout>
   );
 };
 
-Web.getInitialProps = async function(context) {
+Web.getInitialProps = async function (context) {
   var { p } = context.query;
   var { type } = context.query;
 
@@ -70,10 +65,10 @@ Web.getInitialProps = async function(context) {
 
   // Return to render
   return {
-    items: result.result.map(entry => entry),
+    items: result.result.map((entry) => entry),
     pageNbr: p,
     tabPages: pages,
-    type: type
+    type: type,
   };
 };
 
