@@ -200,7 +200,7 @@
   {
     "name": "KeyStone",
     "mini_desc": "The open source framework for developing database-driven products",
-    "img_url": "https://pbs.twimg.com/profile_images/378800000472393763/d5575455853a3eb2ec1dafb5522ffc9a_400x400.png",
+    "img_url": "../boxes-img/keystone.png",
     "link": "http://keystonejs.com/",
     "tags": "front-end,web,api",
     "lang": "javascript",
