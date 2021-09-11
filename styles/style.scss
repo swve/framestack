@@ -581,6 +581,11 @@ h1 {
   margin-top: 40px;
   justify-content: center;
 
+  .active-page {
+    background-color: #2a0b6d;
+    font-weight: bold;
+  }
+
   a {
     padding: 6px;
     background-color: #5734a3;
@@ -612,15 +617,14 @@ h1 {
   }
 }
 
-.hero-privacy{
+.hero-privacy {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 40px;
 
-  h1{
-
+  h1 {
   }
-  p{
+  p {
     width: auto;
   }
 }
