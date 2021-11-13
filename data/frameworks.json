@@ -759,5 +759,13 @@
     "link": "https://api-platform.com/",
     "tags": "api",
     "type": "frame"
+  },
+  {
+    "name": "Next.js",
+    "mini_desc": "The React Framework for Production with SSR and SSG support.",
+    "img_url": "../boxes-img/nextjs.svg",
+    "link": "https://nextjs.org/",
+    "tags": "front-end,web",
+    "type": "frame"
   }
 ]
