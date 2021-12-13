@@ -11,14 +11,13 @@
   "dependencies": {
     "jmespath": "^0.15.0",
     "link-check": "^4.5.4",
-    "next": "11.1.3",
-    "next-plausible": "^1.6.1",
-    "nextjs-progressbar": "^0.0.9",
-    "react": "17.0.2",
+    "next": "^12.0.7",
+    "next-plausible": "^3.1.4",
+    "nextjs-progressbar": "^0.0.13",
+    "react": "^17.0.2",
     "react-dom": "17.0.2",
     "react-hover": "^2.0.0",
-    "sass": "^1.32.13",
-    "url-exist": "^3.0.0"
+    "sass": "^1.32.13"
   },
   "devDependencies": {
     "@types/is-url": "^1.2.29",
