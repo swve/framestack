@@ -134,5 +134,13 @@
     "link": "https://www.unrealengine.com/en-US/",
     "tags": "games",
     "type": "tools"
+  },
+  {
+    "name": "Godot Engine",
+    "mini_desc": "Free and open source 2D and 3D game engine",
+    "img_url": "../boxes-img/godot.jpg",
+    "link": "https://godotengine.org/",
+    "tags": "games",
+    "type": "tools"
   }
 ]
