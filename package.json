@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "test": "jest"
   },
@@ -13,6 +14,7 @@
     "link-check": "^4.5.4",
     "next": "^12.1.0",
     "next-plausible": "^3.1.4",
+    "next-sitemap": "^3.1.17",
     "nextjs-progressbar": "^0.0.13",
     "react": "^17.0.2",
     "react-dom": "17.0.2",
